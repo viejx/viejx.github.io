@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+    width: 80%;
+    height: 200px;
+    background-color: #6299CB;
+    margin: 0 auto;
+    padding: 20px;
+    color: #E9C621;
+}

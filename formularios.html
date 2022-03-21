@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>formularios</title>
+<link href="CSS/style_images.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios en HTML&nbsp;</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Estilo de Texto</a></li>
+    <li><a href="#">Imágenes</a></li>
+    <li><a href="#">Video</a></li>
+    <li><a href="#">Audio</a></li>
+    <li><a href="#">Tablas</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario Registro (Código)</h2>
+	  
+	  
+	  
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quos ex, qui est neque dignissimos ea vitae voluptatem voluptate itaque, doloremque laborum soluta non at nulla praesentium. Aliquam iure assumenda corporis incidunt quidem sint odio id quos perspiciatis? Minima quia minus cum eaque voluptatibus nam harum vero, dicta. Magnam molestiae aspernatur, amet, alias possimus iure cum adipisci laudantium consectetur deserunt consequatur, officia voluptatibus. Et excepturi repellendus eaque aut voluptas nesciunt, neque consectetur numquam vitae est commodi velit saepe dicta rem non blanditiis, necessitatibus maiores esse nisi illo aperiam praesentium id a. Maxime quia molestias, maiores autem. Nihil laborum alias, temporibus est pariatur. Commodi, dolorem deleniti? Rerum veritatis aliquid deleniti consectetur tempora nam perferendis error mollitia minus, ipsam amet laboriosam eveniet, sequi nostrum facilis, eligendi impedit atque in non pariatur quo! Voluptatum sapiente repellat quaerat mollitia et, repellendus ipsam sequi porro nulla. Repellat incidunt eum labore adipisci vel modi earum numquam deleniti voluptatem sint, harum! Nulla at similique eligendi consequatur rem.</p>
+	  
+	<form action="procesamiento.html" method="get">
+		
+		
+	<label for="user"> Usuario </label>
+		<input type="text" id= "user" name="user">
+		<br> <br>
+
+	<label for="password"> contraseña </label>	
+		<input type="password" id="password" name="password">
+		<br> <br>
+	<input type="submit" value="enviar">
+	  
+	  
+	</form> 
+	  
+	  
+	  
+  </section>
+  <section>
+    <h2>Formulario de Texto y Lista Desplegable</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quos ex, qui est neque dignissimos ea vitae voluptatem voluptate itaque, doloremque laborum soluta non at nulla praesentium. Aliquam iure assumenda corporis incidunt quidem sint odio id quos perspiciatis? Minima quia minus cum eaque voluptatibus nam harum vero, dicta. Magnam molestiae aspernatur, amet, alias possimus iure cum adipisci laudantium consectetur deserunt consequatur, officia voluptatibus. Et excepturi repellendus eaque aut voluptas nesciunt, neque consectetur numquam vitae est commodi velit saepe dicta rem non blanditiis, necessitatibus maiores esse nisi illo aperiam praesentium id a. Maxime quia molestias, maiores autem. Nihil laborum alias, temporibus est pariatur. Commodi, dolorem deleniti? Rerum veritatis aliquid deleniti consectetur tempora nam perferendis error mollitia minus, ipsam amet laboriosam eveniet, sequi nostrum facilis, eligendi impedit atque in non pariatur quo! Voluptatum sapiente repellat quaerat mollitia et, repellendus ipsam sequi porro nulla. Repellat incidunt eum labore adipisci vel modi earum numquam deleniti voluptatem sint, harum! Nulla at similique eligendi consequatur rem.</p>
+	  
+	  
+	  
+    <form id="form1" name="form1" method="get" action="procesamiento.html">
+      <label for="nombre">Nombre:</label>
+      <input name="nombre" type="text" id="nombre" autocomplete="on" size="50" maxlength="100">
+		<br><br>
+      <label for="País">País:</label>
+      <select name="País" autofocus="autofocus" id="País" title="País">
+        <option value="Ar">Argentina</option>
+        <option value="Mex">México</option>
+        <option value="Col">Colombia</option>
+        <option value="Ch">Chile</option>
+      </select>
+		<br> <br>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+     
+    </form>
+	  
+	  
+	  
+	  
+  </section>
+  <section>
+    <h2>Pregunta con Radio Button y Casilla de Verficiación</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quos ex, qui est neque dignissimos ea vitae voluptatem voluptate itaque, doloremque laborum soluta non at nulla praesentium. Aliquam iure assumenda corporis incidunt quidem sint odio id quos perspiciatis? Minima quia minus cum eaque voluptatibus nam harum vero, dicta. Magnam molestiae aspernatur, amet, alias possimus iure cum adipisci laudantium consectetur deserunt consequatur, officia voluptatibus. Et excepturi repellendus eaque aut voluptas nesciunt, neque consectetur numquam vitae est commodi velit saepe dicta rem non blanditiis, necessitatibus maiores esse nisi illo aperiam praesentium id a. Maxime quia molestias, maiores autem. Nihil laborum alias, temporibus est pariatur. Commodi, dolorem deleniti? Rerum veritatis aliquid deleniti consectetur tempora nam perferendis error mollitia minus, ipsam amet laboriosam eveniet, sequi nostrum facilis, eligendi impedit atque in non pariatur quo! Voluptatum sapiente repellat quaerat mollitia et, repellendus ipsam sequi porro nulla. Repellat incidunt eum labore adipisci vel modi earum numquam deleniti voluptatem sint, harum! Nulla at similique eligendi consequatur rem.</p>
+	  
+	  
+	  
+    <form action="procesamiento.html" method="get" name="form2" id="form2">
+    
+    
+	  
+	  
+    <label>Género</label>
+    <table width="200">
+      <tr>
+        <td><label>
+          <input type="radio" name="Género" value="masculino" id="Geacutenero_0">
+          Masculino</label></td>
+      </tr>
+      <tr>
+        <td><label>
+          <input type="radio" name="Género" value="femenino" id="Geacutenero_1">
+          Femenino</label></td>
+      </tr>
+      <tr>
+        <td><label>
+          <input type="radio" name="Género" value="no binarix" id="Geacutenero_2">
+          No binarix</label></td>
+      </tr>
+    </table>
+		
+		<br><br>
+		
+    <label>¿Cuál de las siguientes géneros musicales es tu preferido?</label>
+    <table width="200">
+      <tr>
+        <td><label>
+          <input type="checkbox" name="Música" value="rock" id="Muacutesica_0">
+          Rock</label></td>
+      </tr>
+      <tr>
+        <td><label>
+          <input type="checkbox" name="Música" value="pop" id="Muacutesica_1">
+          Pop</label></td>
+      </tr>
+      <tr>
+        <td><label>
+          <input type="checkbox" name="Música" value="indie" id="Muacutesica_2">
+          Indie</label></td>
+      </tr>
+      <tr>
+        <td><label>
+          <input type="checkbox" name="Música" value="reggae" id="Muacutesica_3">
+          Reggae</label></td>
+      </tr>
+      <tr>
+        <td><label>
+          <input type="checkbox" name="Música" value="clásica" id="Muacutesica_4">
+          Clásica</label></td>
+      </tr>
+    </table>
+		
+<br><br>
+		
+		
+<input type="submit" name="submit2" id="submit2" value="Enviar">
+	  
+	 </form> 
+	 
+	  
+  </section>
+  <section>
+    <h2>Formukario Modificado con CSS</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quos ex, qui est neque dignissimos ea vitae voluptatem voluptate itaque, doloremque laborum soluta non at nulla praesentium. Aliquam iure assumenda corporis incidunt quidem sint odio id quos perspiciatis? Minima quia minus cum eaque voluptatibus nam harum vero, dicta. Magnam molestiae aspernatur, amet, alias possimus iure cum adipisci laudantium consectetur deserunt consequatur, officia voluptatibus. Et excepturi repellendus eaque aut voluptas nesciunt, neque consectetur numquam vitae est commodi velit saepe dicta rem non blanditiis, necessitatibus maiores esse nisi illo aperiam praesentium id a. Maxime quia molestias, maiores autem. Nihil laborum alias, temporibus est pariatur. Commodi, dolorem deleniti? Rerum veritatis aliquid deleniti consectetur tempora nam perferendis error mollitia minus, ipsam amet laboriosam eveniet, sequi nostrum facilis, eligendi impedit atque in non pariatur quo! Voluptatum sapiente repellat quaerat mollitia et, repellendus ipsam sequi porro nulla. Repellat incidunt eum labore adipisci vel modi earum numquam deleniti voluptatem sint, harum! Nulla at similique eligendi consequatur rem.</p>
+    <form id="form3" name="form3" method="get" action="procesamiento.html">
+    
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="01nombre" id="01nombre">
+		<br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+		<br><br>
+    <label for="comentario">Comentario:</label>
+    <textarea name="comentario" cols="50" rows="8" maxlength="280" id="comentario"></textarea>
+		<br><br>
+    <input type="submit" name="submit3" id="submit3" value="Enviar">
+		
+	  </form>
+	  
+	  
+	  
+	  
+  </section>
+  <section>
+    <h2>Inputs&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quos ex, qui est neque dignissimos ea vitae voluptatem voluptate itaque, doloremque laborum soluta non at nulla praesentium. Aliquam iure assumenda corporis incidunt quidem sint odio id quos perspiciatis? Minima quia minus cum eaque voluptatibus nam harum vero, dicta. Magnam molestiae aspernatur, amet, alias possimus iure cum adipisci laudantium consectetur deserunt consequatur, officia voluptatibus. Et excepturi repellendus eaque aut voluptas nesciunt, neque consectetur numquam vitae est commodi velit saepe dicta rem non blanditiis, necessitatibus maiores esse nisi illo aperiam praesentium id a. Maxime quia molestias, maiores autem. Nihil laborum alias, temporibus est pariatur. Commodi, dolorem deleniti? Rerum veritatis aliquid deleniti consectetur tempora nam perferendis error mollitia minus, ipsam amet laboriosam eveniet, sequi nostrum facilis, eligendi impedit atque in non pariatur quo! Voluptatum sapiente repellat quaerat mollitia et, repellendus ipsam sequi porro nulla. Repellat incidunt eum labore adipisci vel modi earum numquam deleniti voluptatem sint, harum! Nulla at similique eligendi consequatur rem.</p>
+    <form id="form4" name="form4" method="post">
+      <label for="date">Fecha de Cumpleaños:</label>
+      <input name="date" type="date" autofocus="autofocus" id="date" max="2010-01-01" min="1970-01-01">
+      <input type="reset" name="reset" id="reset" value="Restablecer">
+		<br> <br>
+      <label for="fileField">Foto:</label>
+      <input type="file" name="fileField" id="fileField">
+      
+    </form>
+	  
+	  
+	  
+	  
+	  
+	  
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Ricardo Arroyo Cuautle</h6>
+</footer>
+</body>
+</html>
